@@ -54,8 +54,8 @@ const WeatherDetails = (props) => {
       </div>
 
       {moreDetails && (
-        <div className='mt-10 text-left ml-16'>
-          <ul className='list-none h-60 flex flex-col justify-evenly w-8/12'>
+        <div className='mt-10 mx-auto w-80'>
+          <ul className='list-none h-60 flex flex-col justify-evenly '>
             <li className='flex justify-between'>
               <span className='font-medium'> Feels Like:</span>
               {unit === 'C' ? current.feelslike_c : current.feelslike_f}
