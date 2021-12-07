@@ -15,7 +15,7 @@ const Home = () => {
 
   const fetchWeather = async (searchQuery) => {
     const res = await axios.get(
-      `http://api.weatherapi.com/v1/current.json?key=${process.env.REACT_APP_WEATHER_API_KEY}&q=${searchQuery}&aqi=yes`
+      `https://api.weatherapi.com/v1/current.json?key=${process.env.REACT_APP_WEATHER_API_KEY}&q=${searchQuery}&aqi=yes`
     );
 
     setWeather(res.data);
