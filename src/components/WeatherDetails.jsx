@@ -54,7 +54,7 @@ const WeatherDetails = (props) => {
       </div>
 
       {moreDetails && (
-        <div className='mt-10 mx-auto w-80'>
+        <div className='mt-10 md:mx-auto max-w-80'>
           <ul className='list-none h-60 flex flex-col justify-evenly '>
             <li className='flex justify-between'>
               <span className='font-medium'> Feels Like:</span>
